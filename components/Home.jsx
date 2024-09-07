@@ -1,5 +1,5 @@
 import React from 'react';
-import homeintro from "../src/assets/homeintro.mp4";
+import homeintro1 from "../src/assets/homeintro1.mp4";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
             loop
             muted
             playsInline
-            src={homeintro}
+            src={homeintro1}
           >
             Your browser does not support the video tag.
           </video>
