@@ -38,9 +38,9 @@ export default function Navbar() {
   return (
     <>
       <header className='w-full bg-white md:bg-transparent fixed top-0 left-0 right-0'>
-      <nav className={`py-4 lg:px-2 px-2 ${isSticky ? "sticky top-0 left-0 right-0 border-b bg-white duration-300" : ""}`}>
-        <div className='flex justify-between items-center text-base gap-1 mr-10'>
-            <a href='' className='flex'><img src={studiologo} style={{ height: '100px', width: '100px',margin:'4px' }} alt=''/></a>
+      <nav className={`py-1 lg:px-1 px-1 ${isSticky ? "sticky top-0 left-0 right-0 border-b bg-white duration-300" : ""}`}>
+        <div className='flex justify-between items-center text-base gap-[2px] mr-10'>
+            <a href='' className='flex'><img src={studiologo} style={{ height: '80px', width: '80px',margin:'2px' }} alt=''/></a>
             <ul className=' md:flex space-x-12 hidden'>
         {navItems.map(({ link, path }) => (
             <li key={path} className='cursor-pointer'>
