@@ -6,7 +6,8 @@ export default function Home() {
     <div className='bg-neutralSilver'>
       <div className=' pt-28'> {/* Add padding at the top to push content below the navbar */}
         {/* Embedded responsive video */}
-        <div className='relative w-full' style={{ paddingBottom: '56.25%' }}> 
+        <div className='relative w-full'> 
+        {/* style={{ paddingBottom: '56.25%' }} */}
           <video
             className='w-full h-full object-cover'
             autoPlay
