@@ -39,7 +39,7 @@ export default function Navbar() {
     <>
       <header className='w-full bg-white md:bg-transparent fixed top-0 left-0 right-0'>
       <nav>
-        <div>
+        <div className='flex justify-between items-center text-base gap-1 mr-10'>
             <a href='' className='flex'><img src={studiologo} style={{ height: '100px', width: '100px',margin:'4px' }} alt=''/></a>
             <ul className=' md:flex space-x-12 hidden'>
         {navItems.map(({ link, path }) => (
@@ -49,7 +49,7 @@ export default function Navbar() {
         ))}
     </ul>
     <div className='md:hidden'>
-      <button>
+      <button className='focus:outline-none focus:text-gray-500'>
         {
           isMenuOpen ? (<FaXmark className='h-6 w-6 text-neutralDGrey'/>):(<FaBars className='h-6 w-6 text-neutralDGrey'/>)
         }
