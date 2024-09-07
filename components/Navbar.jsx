@@ -57,6 +57,12 @@ export default function Navbar() {
         }
       </button>
     </div>
+    <div className={`space-y-4 px-4 mt-16 py-7 bg-brandPrimary ${isMenuOpen? "block fixed top-0 right-0 left-0":"hidden"}`}>
+    {navItems.map(({ link, path }) => (
+                <Link to={path} spy={true} smooth={true} key={path} offset={-100} className='block text-base text-gray900 hover:text-brandPrimary first:font-medium'>{link}</Link>
+           
+        ))}
+    </div>
         </div>
       </nav>
     </header>
