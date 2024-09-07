@@ -4,7 +4,7 @@ import homeintro2 from "../src/assets/homeintro2.mp4";
 export default function Home() {
   return (
     <div className='bg-neutralSilver'>
-      <div className=' pt-24'> {/* Add padding at the top to push content below the navbar */}
+      <div className=' pt-16'> {/* Add padding at the top to push content below the navbar */}
         {/* Embedded responsive video */}
         <div className='relative w-full'> 
         {/* style={{ paddingBottom: '56.25%' }} */}
