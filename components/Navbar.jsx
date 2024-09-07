@@ -38,7 +38,7 @@ export default function Navbar() {
   return (
     <>
       <header className='w-full bg-white md:bg-transparent fixed top-0 left-0 right-0'>
-      <nav>
+      <nav className={`py-4 lg:px-5 px-4 ${isSticky ? "sticky top-0 left-0 right-0 border-b bg-white duration-300" : ""}`}>
         <div className='flex justify-between items-center text-base gap-1 mr-10'>
             <a href='' className='flex'><img src={studiologo} style={{ height: '100px', width: '100px',margin:'4px' }} alt=''/></a>
             <ul className=' md:flex space-x-12 hidden'>
@@ -49,7 +49,9 @@ export default function Navbar() {
         ))}
     </ul>
     <div className='md:hidden'>
-      <button className='focus:outline-none focus:text-gray-500'>
+      <button 
+      onClick={toggleMenu}
+      className='focus:outline-none focus:text-gray-500'>
         {
           isMenuOpen ? (<FaXmark className='h-6 w-6 text-neutralDGrey'/>):(<FaBars className='h-6 w-6 text-neutralDGrey'/>)
         }
