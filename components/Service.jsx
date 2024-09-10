@@ -60,7 +60,7 @@ function Service() {
             <div className=''>
               <div className='bg-[#daf4dd] h-20 w-20 mx-auto rounded-tl-3xl rounded-br-3xl flex justify-center items-center mb-4'><img src={service.image} alt='' className='h-16 w-16'></img></div>
               <h4 className='text-2xl font-bold text-neutralDGrey mb-2 px-2 capitalize'>{service.title}</h4>
-              <p className='text-sm text-neutralGray'>{service.desc}</p>
+              <p className='text-sm text-neutralGray text-justify'>{service.desc}</p>
             </div>
           </div>)
         }
