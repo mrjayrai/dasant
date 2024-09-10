@@ -4,7 +4,7 @@ import clogo2 from "../src/assets/clogo2.jpeg";
 import clogo3 from "../src/assets/clogo3.jpeg";
 import clogo4 from "../src/assets/clogo4.jpeg";
 import pcampaign from "../src/assets/pcampaign.png";
-import sound from "../src/assets/pcampaign.png";
+import sound from "../src/assets/sound.png";
 import color from "../src/assets/color.png";
 import editing from "../src/assets/editing.png";
 import post from "../src/assets/post.png";
