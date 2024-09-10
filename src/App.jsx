@@ -11,7 +11,7 @@ function App() {
     <>
     <Navbar/>
     <Home/>
-    {/* <Service/> */}
+    <Service/>
     {/* https://www.youtube.com/watch?v=lByaraur67w */}
     </>
   )
