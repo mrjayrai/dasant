@@ -44,7 +44,7 @@ function Service() {
       <div className='text-center my-8'>
         <h2 className='text-4xl text-neutralDGrey font-semibold mb-2'>Our Clients</h2>
         <p className='text-neutralGray'>We have been working with some amazing clients</p>
-        <div className='my-12 flex flex-wrap justify-between items-center gap-4 '>
+        <div className='my-12 flex flex-wrap justify-between items-center gap-2 '>
           <img src ={clogo1} className='h-32 w-32 cursor-pointer' alt=''></img>
           <img src ={clogo2}  className='h-32 w-32 cursor-pointer' alt=''></img>
           <img src = {clogo3} className='h-32 w-32 cursor-pointer' alt=''></img>
