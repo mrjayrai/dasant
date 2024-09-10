@@ -14,29 +14,17 @@ import visual from "../src/assets/visual.png";
 
 function Service() {
   const serviceprovided = [
-    {id:1,title:"Political Campaign",desc:"Lorem ipsum odor amet, consectetuer adipiscing elit. Vitae facilisis mollis maecenas semper litora ligula venenatis mus suspendisse?"
-      ,image:pcampaign
+    {id:4,title:"Film Production",desc:"Lorem ipsum odor amet, consectetuer adipiscing elit. Vitae facilisis mollis maecenas semper litora ligula venenatis mus suspendisse?"
+      ,image:post
     },
-    {id:2,title:"Color Grading",desc:"Lorem ipsum odor amet, consectetuer adipiscing elit. Vitae facilisis mollis maecenas semper litora ligula venenatis mus suspendisse?"
-      ,image:color
-    },
-    {id:3,title:"Sound Design",desc:"Lorem ipsum odor amet, consectetuer adipiscing elit. Vitae facilisis mollis maecenas semper litora ligula venenatis mus suspendisse?"
-      ,image:sound
-    },
-    {id:4,title:"Visual effects",desc:"Lorem ipsum odor amet, consectetuer adipiscing elit. Vitae facilisis mollis maecenas semper litora ligula venenatis mus suspendisse?"
+    {id:1,title:"Post-Production",desc:"Lorem ipsum odor amet, consectetuer adipiscing elit. Vitae facilisis mollis maecenas semper litora ligula venenatis mus suspendisse?"
       ,image:visual
     },
-    {id:5,title:"editing",desc:"Lorem ipsum odor amet, consectetuer adipiscing elit. Vitae facilisis mollis maecenas semper litora ligula venenatis mus suspendisse?"
-      ,image:editing
-    },
-    {id:6,title:"Advertising",desc:"Lorem ipsum odor amet, consectetuer adipiscing elit. Vitae facilisis mollis maecenas semper litora ligula venenatis mus suspendisse?"
+    {id:2,title:"Advertising",desc:"Lorem ipsum odor amet, consectetuer adipiscing elit. Vitae facilisis mollis maecenas semper litora ligula venenatis mus suspendisse?"
       ,image:ads
     },
-    {id:7,title:"creative script  development",desc:"Lorem ipsum odor amet, consectetuer adipiscing elit. Vitae facilisis mollis maecenas semper litora ligula venenatis mus suspendisse?"
+    {id:3,title:"creative   development",desc:"Lorem ipsum odor amet, consectetuer adipiscing elit. Vitae facilisis mollis maecenas semper litora ligula venenatis mus suspendisse?"
       ,image:script
-    },
-    {id:8,title:"post production",desc:"Lorem ipsum odor amet, consectetuer adipiscing elit. Vitae facilisis mollis maecenas semper litora ligula venenatis mus suspendisse?"
-      ,image:post
     },
   ];
   return (
