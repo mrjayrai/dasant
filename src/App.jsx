@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import Home from '../components/Home';
 import Service from '../components/Service';
 import ServiceDesc from '../components/ServiceDesc';
+import About from '../components/About';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <>
             <Home />
             <Service />
+            <About/>
           </>
         } />
         
