@@ -44,7 +44,7 @@ export default function Navbar() {
             <ul className=' md:flex space-x-12 hidden'>
         {navItems.map(({ link, path }) => (
             <li key={path} className='cursor-pointer'>
-                <Link to={path} spy={true} smooth={true} key={path} offset={-100} className='block text-base text-gray900 hover:text-brandPrimary first:font-medium'>{link}</Link>
+                <Link to={path} spy={true} smooth={true} key={path} offset={-100} className='block text-lg text-gray900 hover:text-indigo-700 first:font-medium'>{link}</Link>
             </li>
         ))}
     </ul>
