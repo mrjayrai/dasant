@@ -60,12 +60,5 @@ function Service() {
 
 export default Service
 
-// 1) Political Campaign
-// 2) Color Grading
-// 3) Sound Design
-// 4) Visual effects
-// 5) editing
-// 6)Advertising
-// 7)creative script  development
-// 8)post production
+
 
