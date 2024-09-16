@@ -5,6 +5,7 @@ import Service from '../components/Service';
 import ServiceDesc from '../components/ServiceDesc';
 import About from '../components/About';
 import HeadLine from '../components/HeadLine';
+import Teams from '../components/Teams';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
             <Service />
             <HeadLine title={'About Us'}/>
             <About/>
-            
+            <Teams/>
           </>
         } />
         
