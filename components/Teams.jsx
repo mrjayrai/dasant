@@ -1,14 +1,19 @@
 import React from 'react';
+import manik from "../src/assets/manik.jpg";
+import nitin from "../src/assets/nitin.jpg";
+import prab from "../src/assets/prab.jpg";
+import pri from "../src/assets/pri.jpg";
+import rahul from "../src/assets/rahul.jpg";
+import team4 from "../src/assets/team4.jpg";
 
 function Teams() {
   const teammember = [
-    { id: 1, name: 'John Doe', img: 'https://readymadeui.com/team-1.webp', desg: 'Producer' },
-    { id: 2, name: 'Jane Smith', img: 'https://readymadeui.com/team-1.webp', desg: 'Designer' },
-    { id: 3, name: 'Mike Ross', img: 'https://readymadeui.com/team-1.webp', desg: 'Developer' },
-    { id: 4, name: 'Rachel Zane', img: 'https://readymadeui.com/team-1.webp', desg: 'Lawyer' },
-    { id: 5, name: 'Harvey Specter', img: 'https://readymadeui.com/team-1.webp', desg: 'CEO' },
-    { id: 6, name: 'Louis Litt', img: 'https://readymadeui.com/team-1.webp', desg: 'COO' },
-    { id: 7, name: 'Donna Paulsen', img: 'https://readymadeui.com/team-1.webp', desg: 'Executive Assistant' },
+    { id: 6, name: 'nitin gaikwad ', img: nitin, desg: 'Founder & Director ' },
+    { id: 1, name: 'Priypal Dashantee', img: pri, desg: 'Actor & Promotion Head' },
+    { id: 2, name: 'Prabhakar Mathapati', img: prab, desg: 'Actor and Lyricist' },
+    { id: 3, name: 'Rahul waghmare ', img: rahul, desg: 'VFX Head' },
+    { id: 4, name: 'Ram Bendrikar', img: team4, desg: 'Writer & Director' },
+    { id: 5, name: 'Manik Bhalerao', img: manik, desg: 'Actor' },
   ];
 
   return (
@@ -29,7 +34,7 @@ function Teams() {
       />
 
       <div className="py-6">
-        <h4 className="text-gray-800 text-lg font-bold">{member.name}</h4> {/* Increased font size */}
+        <h4 className="text-gray-800 text-lg font-bold capitalize">{member.name}</h4> {/* Increased font size */}
         <p className="text-gray-800 text-sm mt-2">{member.desg}</p> {/* Slightly larger font size */}
 
         <div className="space-x-4 mt-6">

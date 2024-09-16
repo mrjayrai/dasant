@@ -6,7 +6,7 @@ import team4 from "../src/assets/team4.jpg";
 const About = () => {
   return (
     <>
-      <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-white dark:bg-dark">
+      <section className="overflow-hidden pt-10 pb-12 lg:pt-[60px] lg:pb-[90px] bg-white dark:bg-dark">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-2">
             <div className="w-full px-4 lg:w-6/12">
