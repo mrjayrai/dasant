@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className='bg-neutralSilver'>
       <div className='pt-16 relative'>
-        <div className='relative w-full'>
+        <div className='relative w-full h-[500px] md:h-[700px]'>
           <video
             className='w-full h-full object-cover'
             autoPlay
@@ -16,8 +16,8 @@ export default function Home() {
           >
             Your browser does not support the video tag.
           </video>
-          <div className='absolute  top-[120px] left-[40px] flex items-center justify-center'>
-            <div className='text-white text-[60px] sm:text-[20px] font-bold'>
+          <div className='absolute top-1/4 left-1/4 transform -translate-x-1/2 -translate-y-1/2 w-full flex items-center justify-center'>
+            <div className='text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-center'>
               Welcome to Dashantee Studio
             </div>
           </div>
