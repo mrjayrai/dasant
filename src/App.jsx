@@ -7,6 +7,7 @@ import About from '../components/About';
 import HeadLine from '../components/HeadLine';
 import Teams from '../components/Teams';
 import Contact from '../components/Contact';
+import About1 from '../components/About1';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
             <Home />
             <Service />
             <HeadLine title={'About Us'}/>
-            <About/>
+            {/* <About/> */}
+            <About1/>
             <Teams/>
             <Contact/>
           </>
