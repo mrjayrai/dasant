@@ -1,7 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import team1 from "../src/assets/team1.jpeg";
-import team4 from "../src/assets/team4.jpg";
+// import team1 from "../src/assets/team1.jpeg";
+// import team4 from "../src/assets/team4.jpg"; 
+
+import ban1 from "../src/assets/ban1.jpg";
+import ban2 from "../src/assets/ban2.jpg";
+import ban3 from "../src/assets/ban3.jpg";
 
 const About = () => {
   return (
@@ -14,14 +18,14 @@ const About = () => {
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="py-3 sm:py-4">
                     <img
-                      src={team1}
+                      src={ban1}
                       alt=""
                       className="w-full rounded-2xl"
                     />
                   </div>
                   <div className="py-3 sm:py-4">
                     <img
-                      src={team1}
+                      src={ban2}
                       alt=""
                       className="w-full rounded-2xl"
                     />
@@ -30,7 +34,7 @@ const About = () => {
                 <div className="w-full px-1 sm:px-4 xl:w-1/2">
                   <div className="z-10 my-4">
                     <img
-                      src={team4}
+                      src={ban3}
                       alt=""
                       className="w-full rounded-2xl"
                     />
