@@ -7,7 +7,7 @@ export default function Home() {
       <div className='pt-16 relative'>
         <div className='relative w-full h-[500px] md:h-[700px]'>
           <video
-            className='w-full h-full object-cover'
+            className='w-full h-full object-contain'
             autoPlay
             loop
             muted
