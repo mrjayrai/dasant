@@ -6,6 +6,7 @@ import ServiceDesc from '../components/ServiceDesc';
 import About from '../components/About';
 import HeadLine from '../components/HeadLine';
 import Teams from '../components/Teams';
+import Contact from '../components/Contact';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <HeadLine title={'About Us'}/>
             <About/>
             <Teams/>
+            <Contact/>
           </>
         } />
         
