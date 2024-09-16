@@ -10,7 +10,7 @@ import ban3 from "../src/assets/ban3.jpg";
 const About = () => {
   return (
     <>
-      <section className="overflow-hidden pt-10 pb-12 lg:pt-[60px] lg:pb-[90px] bg-white dark:bg-dark">
+      <section className="overflow-hidden pt-10 pb-12 lg:pt-[10px] lg:pb-[90px] bg-white dark:bg-dark">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-2">
             <div className="w-full px-4 lg:w-6/12">
