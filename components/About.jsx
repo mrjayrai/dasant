@@ -20,7 +20,7 @@ const About = () => {
                     <img
                       src={ban1}
                       alt=""
-                      className="w-full h-[320px] rounded-2xl"
+                      className="w-full rounded-2xl"
                     />
                   </div>
                   <div className="py-3 sm:py-4">
