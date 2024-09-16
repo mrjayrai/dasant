@@ -17,7 +17,7 @@ export default function Home() {
             Your browser does not support the video tag.
           </video>
           <div className='absolute  top-[120px] left-[40px] flex items-center justify-center'>
-            <div className='text-white text-[60px] font-bold'>
+            <div className='text-white text-[60px] sm:text-[20px] font-bold'>
               Welcome to Dashantee Studio
             </div>
           </div>
