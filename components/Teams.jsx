@@ -10,10 +10,10 @@ function Teams() {
   const teammember = [
     { id: 6, name: 'nitin gaikwad ', img: nitin, desg: 'Founder & Director ' },
     { id: 1, name: 'Priypal Dashantee', img: pri, desg: 'Actor & Promotion Head' },
-    { id: 2, name: 'Prabhakar Mathapati', img: prab, desg: 'Actor and Lyricist' },
     { id: 3, name: 'Rahul waghmare ', img: rahul, desg: 'VFX Head' },
     { id: 4, name: 'Ram Bendrikar', img: team4, desg: 'Writer & Director' },
     { id: 5, name: 'Manik Bhalerao', img: manik, desg: 'Actor' },
+    { id: 2, name: 'Prabhakar Mathapati', img: prab, desg: 'Actor and Lyricist' },
   ];
 
   return (

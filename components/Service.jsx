@@ -44,18 +44,6 @@ function Service() {
       ],
     },
     {
-      id: 1,
-      title: "Post-Production",
-      desc: "We shape the final narrative through expert post-production services. Our team of skilled editors, visual effects artists, and sound designers craft a polished, engaging, and immersive experience that elevates your story and resonates with audiences.",
-      image: visual,
-      feature:[
-        {id:'11',title:'Editing',dec:'We refine and perfect your visual content through expert editing services. Our team of skilled editors craft compelling narratives, enhance pacing and tone, and ensure a polished final product that exceeds your expectations',image:editing},
-        {id:'12',title:'Visual Effects (VFX) ',dec:'Our team delivers high-end visual effects solutions that seamlessly integrate with live-action footage. We specialize in CGI, motion capture, and advanced compositing techniques to create breathtaking and believable visual experiences',image:visual},
-        {id:'13',title:'Sound Design',dec:'We craft and shape the sonic landscape of your visual content, creating an immersive audio experience that complements and enhances the narrative. Our team delivers high-quality sound effects, FX, Foley, and mixing services to bring your project to life',image:sound},
-        {id:'14',title:'Color Grading',dec:'We enhance the visual aesthetic of your footage through expert color grading services. Our team of colorists craft a unique color palette that evokes emotion, sets the tone, and refines the overall look of your project',image:color},
-      ],
-    },
-    {
       id: 2,
       title: "Advertising",
       desc: "We create and execute compelling advertising campaigns that capture attention, drive engagement, and deliver results. Our team of experts develops strategic solutions that connect your brand with your target audience across various channels and platforms",
@@ -66,6 +54,18 @@ function Service() {
         {id:'23',title:'Social Media Campaigns',dec:'Our team crafts and implements effective social media campaigns that increase brand awareness, boost engagement, and drive website traffic and sales. We help you navigate the ever-changing social media landscape and reach your target audience',image:bg12},
         {id:'24',title:'Corporate Videos',dec:'Our team of creative professionals understands the importance of effective visual communication. We ll work closely with you to develop a customized video strategy that aligns with your brand s unique needs and goals.',image:bg1},
         {id:'25',title:'Political campaigns',dec:'Our team provides expert digital solutions for political candidates and organizations, including campaign strategy, social media management, online advertising, and voter engagement to help you reach, persuade, and mobilize your audience.',image:pcampaign},
+      ],
+    },
+    {
+      id: 1,
+      title: "Post-Production",
+      desc: "We shape the final narrative through expert post-production services. Our team of skilled editors, visual effects artists, and sound designers craft a polished, engaging, and immersive experience that elevates your story and resonates with audiences.",
+      image: visual,
+      feature:[
+        {id:'11',title:'Editing',dec:'We refine and perfect your visual content through expert editing services. Our team of skilled editors craft compelling narratives, enhance pacing and tone, and ensure a polished final product that exceeds your expectations',image:editing},
+        {id:'12',title:'Visual Effects (VFX) ',dec:'Our team delivers high-end visual effects solutions that seamlessly integrate with live-action footage. We specialize in CGI, motion capture, and advanced compositing techniques to create breathtaking and believable visual experiences',image:visual},
+        {id:'13',title:'Sound Design',dec:'We craft and shape the sonic landscape of your visual content, creating an immersive audio experience that complements and enhances the narrative. Our team delivers high-quality sound effects, FX, Foley, and mixing services to bring your project to life',image:sound},
+        {id:'14',title:'Color Grading',dec:'We enhance the visual aesthetic of your footage through expert color grading services. Our team of colorists craft a unique color palette that evokes emotion, sets the tone, and refines the overall look of your project',image:color},
       ],
     },
     {
