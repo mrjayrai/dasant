@@ -8,6 +8,7 @@ import HeadLine from '../components/HeadLine';
 import Teams from '../components/Teams';
 import Contact from '../components/Contact';
 import About1 from '../components/About1';
+import Client from '../components/Client';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             {/* <About/> */}
             <Teams/>
             <Contact/>
+            <Client/>
           </>
         } />
         
