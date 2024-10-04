@@ -17,10 +17,10 @@ function App() {
         <Route path="/" element={
           <>
             <Home />
-            <Service />
             <HeadLine title={'About Us'}/>
-            {/* <About/> */}
             <About1/>
+            <Service />
+            {/* <About/> */}
             <Teams/>
             <Contact/>
           </>
