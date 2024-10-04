@@ -9,11 +9,11 @@ import team4 from "../src/assets/team4.jpg";
 function Teams() {
   const teammember = [
     { id: 6, name: 'nitin gaikwad ', img: nitin, desg: 'Founder & Director ' },
-    { id: 1, name: 'Priypal Dashantee', img: pri, desg: 'Actor & Promotion Head' },
-    { id: 3, name: 'Rahul waghmare ', img: rahul, desg: 'VFX Head' },
+    { id: 3, name: 'Rahul waghmare ', img: rahul, desg: 'Editor & VFX Head' },
+    { id: 1, name: 'Priypal Dashantee', img: pri, desg: 'Promotion Head' },
     { id: 4, name: 'Ram Bendrikar', img: team4, desg: 'Writer & Director' },
-    { id: 5, name: 'Manik Bhalerao', img: manik, desg: 'Actor' },
-    { id: 2, name: 'Prabhakar Mathapati', img: prab, desg: 'Actor and Lyricist' },
+    { id: 5, name: 'Manik Bhalerao', img: manik, desg: 'Production Head' },
+    // { id: 2, name: 'Prabhakar Mathapati', img: prab, desg: 'Actor and Lyricist' },
   ];
 
   return (
@@ -37,7 +37,7 @@ function Teams() {
         <h4 className="text-gray-800 text-lg font-bold capitalize">{member.name}</h4> {/* Increased font size */}
         <p className="text-gray-800 text-sm mt-2">{member.desg}</p> {/* Slightly larger font size */}
 
-        <div className="space-x-4 mt-6">
+        {/* <div className="space-x-4 mt-6">
           <button
             type="button"
             className="w-8 h-8 inline-flex items-center justify-center rounded-full border-none outline-none bg-gray-100 hover:bg-gray-200"
@@ -62,7 +62,7 @@ function Teams() {
               <path d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 0 0 2.882 0z" />
             </svg>
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   ))}

@@ -67,7 +67,7 @@ function Service() {
     },
     {
       id: 3,
-      title: "creative   development",
+      title: "script   development",
       desc: "We nurture bold ideas and bring them to life through innovative creative development. Our team of visionary thinkers, writers, and artists collaborate to craft compelling stories, characters, and worlds that captivate and inspire audiences",
       image: script,
       feature:[
