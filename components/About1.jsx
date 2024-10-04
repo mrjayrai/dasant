@@ -16,22 +16,22 @@ export default function About1() {
       <header className="mt-[140px] bg-white px-8">
       <div className="container mx-auto grid h-full min-h-[65vh] w-full grid-cols-1 place-items-center gap-y-10 lg:grid-cols-2">
         <div className="row-start-2 lg:row-auto lg:-mt-40">
-          <Typography
+          {/* <Typography
           placeholder={''}
             variant="h1"
             color="red"
             className="text-3xl !leading-snug"
           >
             Who we are?
-          </Typography>
-          <Typography
+          </Typography> */}
+          {/* <Typography
           placeholder={''}
             variant="h1"
             color="blue-gray"
             className="mb-2 max-w-sm text-xl !leading-snug lg:mb-3 lg:text-3xl"
           >
             Making our customer's happy by giving world class service.
-          </Typography>
+          </Typography> */}
           <Typography
           placeholder={''}
             variant="lead"
@@ -42,14 +42,14 @@ export default function About1() {
             educator, we&apos;ve got everything you need. */}
             Dashantee studio is a film and advertising company
 Our team of experienced professionals specialises in crafting compelling stories through visual
-media. We pride ourselves on delivering high-quality content that resonates with audiences and
+media. We pride ourselves on delivering quality content that resonates with audiences and
 achieves our client's goals
           </Typography>
           <Button placeholder={''} size="lg" color="gray" className='h-10'>
             Contact Us
           </Button>
         </div>
-        <div className="mt-40 grid gap-6 lg:mt-0">
+        {/* <div className="mt-40 grid gap-6 lg:mt-0">
           <div className="grid grid-cols-4 gap-6">
             <img
               width={768}
@@ -104,7 +104,7 @@ achieves our client's goals
               alt="flowers"
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </header>
     </div>
