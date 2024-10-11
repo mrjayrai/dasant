@@ -17,7 +17,7 @@ import bg12 from "../src/assets/bg12.png";
 import bg1 from "../src/assets/bg1.png";
 import bg13 from "../src/assets/bg13.png";
 import bg11 from "../src/assets/bg11.png";
-import bg24 from "../src/assets/bg24.avif";
+import bg25 from "../src/assets/bg25.jpg";
 import { useNavigate } from "react-router-dom";
 // import Client from "./Client";
 
@@ -81,7 +81,7 @@ function Service() {
   return (
     <div className="md:px-14 px-4 py-16 max-w-screen-2xl mx-auto bg-cover bg-center bg-fixed sm:bg-no-repeat"
     style={{
-      backgroundImage: `url(${bg24})`,
+      backgroundImage: `url(${bg25})`,
     }}
     >
       {/* <div className="text-center my-8">
