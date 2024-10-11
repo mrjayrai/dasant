@@ -79,7 +79,7 @@ function Service() {
     },
   ];
   return (
-    <div className="md:px-14 px-4 py-16 max-w-screen-2xl mx-auto bg-cover bg-center bg-fixed bg-no-repeat"
+    <div className="md:px-14 px-4 py-16 max-w-screen-2xl mx-auto bg-cover bg-center bg-fixed sm:bg-no-repeat"
     style={{
       backgroundImage: `url(${bg24})`,
     }}
