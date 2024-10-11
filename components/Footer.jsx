@@ -62,7 +62,7 @@ const Footer = () => {
             <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.6421006421638!2d72.85023387337286!3d19.21082824772958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b72838a38753%3A0xc1fe790de9d50c74!2sSatya%20Sundaram%20Cooperative%20Housing%20Society%20Limited!5e0!3m2!1sen!2sin!4v1728059580804!5m2!1sen!2sin" 
                 width="100%" 
-                height="300" 
+                height="200" 
                 style={{ border: 0 }} 
                 allowFullScreen="" 
                 loading="lazy">
