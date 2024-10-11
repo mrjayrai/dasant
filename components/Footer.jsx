@@ -5,7 +5,7 @@ import studiologonew from '../src/assets/studiologonew.png'
 const Footer = () => {
     const d = new Date();
   return (
-    <footer className="bg-white dark:bg-gray-900">
+    <footer className="bg-PrimaryColor  dark:bg-gray-900">
     <div className="container p-6 mx-auto">
         <div className="lg:flex">
             <div className="w-full -mx-6 lg:w-2/5">
@@ -53,9 +53,9 @@ const Footer = () => {
             <div className="mt-6 lg:mt-0 lg:flex-1">
     <div className="grid grid-cols-1 gap-10 sm:grid-cols-2">
         <div>
-            <h3 className="text-gray-700 uppercase dark:text-white">Contact</h3>
-            <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">+91 8087428165</span>
-            <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">dashanteestudio@gmail.com</span>
+            <h3 className="text-gray900 uppercase dark:text-white">Contact</h3>
+            <span className="block mt-2 text-sm text-gray900 dark:text-gray-400 hover:underline">+91 8087428165</span>
+            <span className="block mt-2 text-sm text-gray900 dark:text-gray-400 hover:underline">dashanteestudio@gmail.com</span>
             {/* <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400">Satyasundaram society, Fateh bag Kandivali, West -67 Mumbai</span> */}
         </div>
         <div>
@@ -76,7 +76,7 @@ const Footer = () => {
         <hr className="h-px my-6 bg-gray-200 border-none dark:bg-gray-700"/>
 
         <div>
-            <p className="text-center text-gray-500 dark:text-gray-400">© Dashantee {d.getFullYear()} - All rights reserved</p>
+            <p className="text-center text-gray900 dark:text-gray-400">© Dashantee {d.getFullYear()} - All rights reserved</p>
         </div>
     </div>
 </footer>
