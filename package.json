@@ -10,6 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/caveat": "^5.1.0",
+    "@fontsource/lora": "^5.1.0",
+    "@fontsource/montserrat": "^5.1.0",
+    "@fontsource/quicksand": "^5.1.0",
     "@material-tailwind/react": "^2.1.10",
     "flowbite-react": "^0.10.1",
     "react": "^18.3.1",

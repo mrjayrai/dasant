@@ -17,7 +17,9 @@ export default {
         neutralDGrey: '#4D4D4D',
         brandPrimary: '#4CAF4F',
         neutralGray: '#717171',
-        gray900: '#18191F',
+        gray900: '#DEF2F1',
+        PrimaryColor:'#3AAFA9',
+        PrimaryBlack:'#17252A',
         primary: {
           50: '#eff6ff',
           100: '#dbeafe',
@@ -31,6 +33,12 @@ export default {
           900: '#1e3a8a',
           950: '#172554',
         },
+      },
+      fontFamily: {
+        caveat: ['Caveat', 'cursive'],
+        lora: ['Lora', 'serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+        quicksand: ['Quicksand', 'sans-serif'],
       },
       animation: {
         'scroll': 'scroll 18s linear infinite',

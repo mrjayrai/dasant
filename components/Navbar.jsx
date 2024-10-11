@@ -38,14 +38,14 @@ export default function Navbar() {
 
   return (
     <>
-      <header className='w-full bg-white md:bg-transparent fixed top-0 left-0 right-0 z-[10000]'>
-      <nav className={`py-1 lg:px-1 px-1 ${isSticky ? "sticky top-0 left-0 right-0 border-b-[1px] shadow border-b-slate-500 bg-white duration-75" : ""}`}>
-        <div className='flex justify-between items-center text-base gap-[2px] mr-10'>
+      <header className='w-full bg-PrimaryColor  fixed top-0 left-0 right-0 z-[10000]'>
+      <nav className={`py-1 lg:px-1 px-1 ${isSticky ? "sticky top-0 left-0 right-0 border-b-[1px] shadow border-b-slate-500 bg-PrimaryColor duration-75" : ""}`}>
+        <div className='flex justify-between items-center text-lg gap-[2px] mr-10'>
             <a href='/' className='flex'><img src={studiologonew} style={{ height: '60px', width: '60px',margin:'2px' }} alt=''/></a>
             <ul className=' md:flex space-x-12 hidden'>
         {navItems.map(({ link, path }) => (
             <li key={path} className='cursor-pointer'>
-                <Link to={path} spy={true} smooth={true} key={path} offset={-100} className='block text-lg text-gray900 hover:text-indigo-700 first:font-medium'>{link}</Link>
+                <Link to={path} spy={true} smooth={true} key={path} offset={-100} className='block font-[19px] leading-[28px] line text-gray900 hover:text-indigo-700 first:font-medium'>{link}</Link>
             </li>
         ))}
     </ul>
