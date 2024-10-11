@@ -17,6 +17,7 @@ import bg12 from "../src/assets/bg12.png";
 import bg1 from "../src/assets/bg1.png";
 import bg13 from "../src/assets/bg13.png";
 import bg11 from "../src/assets/bg11.png";
+import bg24 from "../src/assets/bg24.avif";
 import { useNavigate } from "react-router-dom";
 // import Client from "./Client";
 
@@ -78,7 +79,11 @@ function Service() {
     },
   ];
   return (
-    <div className="md:px-14 px-4 py-16 max-w-screen-2xl mx-auto">
+    <div className="md:px-14 px-4 py-16 max-w-screen-2xl mx-auto bg-cover bg-center bg-fixed bg-no-repeat"
+    style={{
+      backgroundImage: `url(${bg24})`,
+    }}
+    >
       {/* <div className="text-center my-8">
         <h2 className="text-4xl text-neutralDGrey font-semibold mb-2">
           Our Clients
@@ -95,8 +100,8 @@ function Service() {
       </div> */}
       {/* <Client/> */}
 
-      <div className="text-center mt-20  mx-auto">
-        <h2 className="text-4xl text-neutralDGrey font-semibold mb-2">
+      <div className="text-center mt-0  mx-auto">
+        <h2 className="text-4xl text-neutralDGrey font-semibold mb-2 font-montserrat">
           Our Services
         </h2>
         <p className="text-neutralGray">
@@ -107,16 +112,17 @@ function Service() {
             <div
               key={service.id}
               onClick={() => handleCardClick(service)}
-              className="px-4 py-8 text-center md:w-[300px] mx-auto md:h-80 rounded-md shadow cursor-pointer hover:-translate-y-5 hover:border-b-4 hover:border-t-4 hover:border-indigo-700 transition-all duration-300 flex items-center justify-center h-full"
+              // className="px-4 py-8 text-center md:w-[300px] mx-auto md:h-80 rounded-md shadow cursor-pointer hover:-translate-y-5 hover:border-b-4 hover:border-t-4 hover:border-indigo-700 transition-all duration-300 flex items-center justify-center h-full bg-gray900"
+              className="px-4 py-8 text-center md:w-[300px] mx-auto md:h-80 rounded-md shadow cursor-pointer hover:-translate-y-5 hover:border-b-4 hover:border-t-4 hover:border-indigo-700 transition-all duration-300 flex items-center justify-center h-full bg-gray900"
             >
               <div className="">
-                <div className="bg-[#daf4dd] h-20 w-20 mx-auto rounded-tl-3xl rounded-br-3xl flex justify-center items-center mb-4">
+                <div className=" h-20 w-20 mx-auto rounded-tl-3xl rounded-br-3xl flex justify-center items-center mb-4">
                   <img src={service.image} alt="" className="h-16 w-16"></img>
                 </div>
-                <h4 className="text-2xl font-bold text-neutralDGrey mb-2 px-2 capitalize">
+                <h4 className="text-2xl font-bold text-neutralDGrey mb-2 px-2 capitalize font-quicksand">
                   {service.title}
                 </h4>
-                <p className="text-sm text-neutralGray flex text-justify items-center justify-center">
+                <p className="text-sm text-neutralGray flex text-justify items-center justify-center font-quicksand">
                   {/* {service.desc} */}
                   <p className="text-sm text-neutralGray flex justify-center items-center text-justify">
                     <button className=" inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
