@@ -17,9 +17,9 @@ function Teams() {
   ];
 
   return (
-    <div>
+    <div className='bg-gray900 pt-2'>
       <div className="font-[sans-serif]">
-        <div className="max-w-2xl mx-auto text-center">
+        <div className="max-w-2xl mx-auto text-center ">
           <h2 className="text-gray-800 text-4xl font-extrabold">Meet our team</h2>
           <p className="text-gray-800 text-sm mt-4 leading-relaxed">Meet our team of professionals to serve you.</p>
         </div>
