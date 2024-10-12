@@ -30,7 +30,7 @@ import dasantmob from '../src/assets/dasantmob.mp4';
 export default function Home() {
   return (
     <>
-    <div className='bg-neutralSilver sm:hidden'>
+    <div className='bg-neutralSilver relative sm:hidden'>
       <div className='relative w-full mb-16'> {/* Changed to h-screen for full height */}
       {/* h-screen overflow-hidden */}
         <video
