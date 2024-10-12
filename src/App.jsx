@@ -10,6 +10,7 @@ import Contact from '../components/Contact';
 import About1 from '../components/About1';
 import Client from '../components/Client';
 import Footer from '../components/Footer';
+import Nbspde from '../components/Nbspde';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
         <Route path="/" element={
           <>
             <Home />
+            <div className='sm:hidden'>
+            <Nbspde/>
+            </div>
             <HeadLine title={'About Us'}/>
             <About1/>
             <Service />
