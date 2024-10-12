@@ -163,7 +163,7 @@ export default function About1() {
   return (
     <>
     <div className='block'>
-    <div className='bg-gray900  text-PrimaryBlack flex justify-center items-center text-center sm:text-[38px] font-bold sm:leading-[50px] sm:px-[230px] sm:py-[20px] font-montserrat max-sm:text-[15px] max-sm:px-[50px] max-sm:py-0'>
+    <div className='bg-gray900  text-PrimaryBlack flex justify-center items-center text-center sm:text-[38px] font-bold sm:leading-[50px] sm:px-[230px] sm:py-[20px] font-montserrat max-sm:text-[15px] max-sm:px-[45px] max-sm:py-0'>
     Dashantee Studio: Where passion meets precision, delivering impactful film and advertising solutions.</div>
     <div className="sm:grid sm:grid-cols-3 max-sm:gird max-sm:grid-cols-1 bg-gray900">
   {/* First Image */}
@@ -195,7 +195,7 @@ export default function About1() {
           <div className="row-start-2 lg:row-auto lg:-mt-40 ">
             <Typography
               variant="lead"
-              className="mb-6 font-normal !text-gray-500 md:pr-16 xl:pr-28 text-justify text-3xl leading-[50px] font-quicksand"
+              className="mb-6 font-normal !text-gray-500 md:pr-16 xl:pr-28 text-justify sm:text-3xl sm:leading-[50px] font-quicksand max-sm:text-[13px] max-sm:leading-3 "
             >
               Dashantee studio is a film and advertising company. Our team of
               experienced professionals specialises in crafting compelling
