@@ -195,7 +195,7 @@ export default function About1() {
           <div className="row-start-2 lg:row-auto lg:-mt-40 ">
             <Typography
               variant="lead"
-              className="mb-6 font-normal !text-gray-500 md:pr-16 xl:pr-28 text-justify sm:text-3xl sm:leading-[50px] font-quicksand max-sm:text-[13px] max-sm:leading-4 "
+              className="max-sm:mb-3 sm:mb-6 font-normal !text-gray-500 md:pr-16 xl:pr-28 text-justify sm:text-3xl sm:leading-[50px] font-quicksand max-sm:text-[13px] max-sm:leading-4 "
             >
               Dashantee studio is a film and advertising company. Our team of
               experienced professionals specialises in crafting compelling
@@ -203,7 +203,7 @@ export default function About1() {
               quality content that resonates with audiences and achieves our
               client's goals.
             </Typography>
-            <Button size="lg" color="gray" className="sm:h-10 max-sm:mb-8 max-sm:h-6">
+            <Button size="lg" color="gray" className="sm:h-10 max-sm:mb-48 max-sm:h-6">
               Contact Us
             </Button>
           </div>
