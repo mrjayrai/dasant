@@ -25,6 +25,7 @@
 ////// desktop ^
 import React from 'react';
 import dasant from "../src/assets/dasant.mp4";
+import dasantmob from '../src/assets/dasantmob.mp4';
 
 export default function Home() {
   return (
@@ -39,7 +40,7 @@ export default function Home() {
           muted
           playsInline
           preload='auto'
-          src={dasant}
+          src={dasantmob}
         >
           Your browser does not support the video tag.
         </video>
