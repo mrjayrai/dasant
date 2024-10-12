@@ -203,7 +203,7 @@ export default function About1() {
               quality content that resonates with audiences and achieves our
               client's goals.
             </Typography>
-            <Button size="lg" color="gray" className="sm:h-10 mb-2 max-sm:h-5">
+            <Button size="lg" color="gray" className="sm:h-10 mb-2 max-sm:h-6">
               Contact Us
             </Button>
           </div>
