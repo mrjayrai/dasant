@@ -31,7 +31,7 @@ export default function Home() {
     <div className='bg-neutralSilver'>
       <div className='relative w-full h-screen overflow-hidden '> {/* Changed to h-screen for full height */}
         <video
-          className='absolute inset-0 w-full h-full object-contain md:object-cover' // Use object-contain for smaller screens, object-cover for larger screens
+          className='absolute inset-0 w-full h-fit object-contain sm:object-cover' // Use object-contain for smaller screens, object-cover for larger screens
           autoPlay
           loop
           muted
