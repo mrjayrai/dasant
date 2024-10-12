@@ -8,7 +8,7 @@ function HeadLine({title}) {
           
           {title}
         </h2> */}
-        <h2 className="text-red-400 text-4xl font-bold font-montserrat">{title}</h2>
+        <h2 className="text-red-400 sm:text-4xl max-sm:text-[18px] font-bold font-montserrat">{title}</h2>
     </div>
   )
 }
