@@ -29,10 +29,10 @@ import dasant from "../src/assets/dasant.mp4";
 export default function Home() {
   return (
     <div className='bg-neutralSilver'>
-      <div className='pt-0 relative'>
-        <div className='relative w-full h-screen'>
+      <div className='relative'>
+        <div className='relative w-full h-[100vh] overflow-hidden'>
           <video
-            className='absolute inset-0 w-full h-full object-cover'
+            className='absolute inset-0 w-full h-full object-contain'
             autoPlay
             loop
             muted
@@ -46,4 +46,5 @@ export default function Home() {
     </div>
   );
 }
+
 
