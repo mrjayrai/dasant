@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <>
     <div className='bg-neutralSilver sm:hidden'>
-      <div className='relative w-full'> {/* Changed to h-screen for full height */}
+      <div className='relative w-full mb-16'> {/* Changed to h-screen for full height */}
       {/* h-screen overflow-hidden */}
         <video
           className='absolute inset-0 w-full h-fit object-contain sm:object-cover' // Use object-contain for smaller screens, object-cover for larger screens
