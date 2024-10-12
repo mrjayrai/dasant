@@ -190,7 +190,7 @@ export default function About1() {
 
 <div>
       <header className="mt-[0px] bg-gray900 px-8">
-        <div className="container mx-auto grid h-full min-h-[65vh] w-full sm:pt-[150px] grid-cols-1 font-serif place-items-center gap-y-10">
+        <div className="container mx-auto grid h-full sm:min-h-[65vh] w-full sm:pt-[150px] grid-cols-1 font-serif place-items-center gap-y-10">
           {/* Text section */}
           <div className="row-start-2 lg:row-auto lg:-mt-40 ">
             <Typography
