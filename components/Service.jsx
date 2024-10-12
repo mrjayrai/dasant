@@ -17,7 +17,7 @@ import bg12 from "../src/assets/bg12.png";
 import bg1 from "../src/assets/bg1.png";
 import bg13 from "../src/assets/bg13.png";
 import bg11 from "../src/assets/bg11.png";
-import bg25 from "../src/assets/bg25.jpg";
+import bg32 from "../src/assets/bg32.jpg";
 import { useNavigate } from "react-router-dom";
 // import Client from "./Client";
 
@@ -81,7 +81,7 @@ function Service() {
   return (
     <div className="md:px-14 px-4 py-16 max-w-screen-2xl mx-auto bg-cover bg-center bg-fixed sm:bg-no-repeat"
     style={{
-      backgroundImage: `url(${bg25})`,
+      backgroundImage: `url(${bg32})`,
     }}
     >
       {/* <div className="text-center my-8">
@@ -101,10 +101,10 @@ function Service() {
       {/* <Client/> */}
 
       <div className="text-center mt-0  mx-auto">
-        <h2 className="text-4xl text-neutralDGrey font-semibold mb-2 font-montserrat">
+        <h2 className="text-4xl text-white font-semibold mb-2 font-montserrat">
           Our Services
         </h2>
-        <p className="text-neutralGray">
+        <p className="text-white">
           We provide a large variety of services
         </p>
         <div className="mt-14 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  mx-auto gap-12">
