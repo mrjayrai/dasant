@@ -29,20 +29,18 @@ import dasant from "../src/assets/dasant.mp4";
 export default function Home() {
   return (
     <div className='bg-neutralSilver'>
-      <div className='relative'>
-        <div className='relative w-full h-[100vh]'>
-          <video
-            className='absolute inset-0 w-full h-full object-cover'  // Changed to 'object-cover' for full coverage
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload='auto' // Preload to enhance video loading
-            src={dasant}
-          >
-            Your browser does not support the video tag.
-          </video>
-        </div>
+      <div className='relative w-full h-screen overflow-hidden '> {/* Changed to h-screen for full height */}
+        <video
+          className='absolute inset-0 w-full h-full object-contain md:object-cover' // Use object-contain for smaller screens, object-cover for larger screens
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload='auto'
+          src={dasant}
+        >
+          Your browser does not support the video tag.
+        </video>
       </div>
     </div>
   );
