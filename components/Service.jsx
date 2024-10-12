@@ -107,7 +107,7 @@ function Service() {
         <p className="text-white">
           We provide a large variety of services
         </p>
-        <div className="mt-14 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  mx-auto gap-12">
+        <div className="mt-14 grid lg:grid-cols-3 max-sm:grid-cols-2 grid-cols-1  mx-auto gap-12">
           {serviceprovided.map((service) => (
             <div
               key={service.id}
