@@ -55,11 +55,11 @@ export default function Navbar() {
       onClick={toggleMenu}
       className='focus:outline-none focus:text-gray-500'>
         {
-          isMenuOpen ? (<FaXmark className='h-6 w-6 text-neutralDGrey'/>):(<FaBars className='h-6 w-6 text-neutralDGrey'/>)
+          isMenuOpen ? (<FaXmark className='h-6 w-6 text-white'/>):(<FaBars className='h-6 w-6 text-white'/>)
         }
       </button>
     </div>
-    <div className={`space-y-4 px-4 mt-32 py-14 bg-brandPrimary ${isMenuOpen? "block fixed top-0 right-0 left-0":"hidden"}`}>
+    <div className={`space-y-4 px-4 mt-20 py-14 bg-SecondaryColor ${isMenuOpen? "block fixed top-0 right-0 left-0":"hidden"}`}>
     {navItems.map(({ link, path }) => (
                 <Link to={path} spy={true} smooth={true} key={path} offset={-100} className='block text-base text-white hover:text-white first:font-medium'>{link}</Link>
            
