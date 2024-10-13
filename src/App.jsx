@@ -20,9 +20,9 @@ function App() {
         <Route path="/" element={
           <>
             <Home />
-            {/* <div className='sm:hidden'>
+            <div className='sm:hidden'>
             <Nbspde/>
-            </div> */}
+            </div>
             <HeadLine title={'About Us'}/>
             <About1/>
             <Service />
