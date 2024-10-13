@@ -53,8 +53,8 @@ export default function Home() {
 
   return (
     <>
-    {windowWidth>640?<Videodesk/>:<Videomob/>}
-         
+    {/* {windowWidth>640?<Videodesk/>:<Videomob/>} */}
+    {windowWidth>640?null:<Videomob/>}
     </>
   );
 }
