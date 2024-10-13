@@ -7,3 +7,11 @@ body{
 header{
     z-index: 10001 !important;
 }
+
+@supports (-webkit-touch-callout: none) {
+    video {
+      min-height: 100vh; /* Ensures the video covers the full screen on iOS */
+      object-fit: contain; /* Forces the video to be fully visible and not cut off */
+    }
+  }
+  
