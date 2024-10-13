@@ -6,7 +6,7 @@ import dashanteelogo from '../src/assets/dashanteelogo.png';
 const Footer = () => {
     const d = new Date();
   return (
-    <footer className="bg-PrimaryColor  dark:bg-gray-900">
+    <footer className="bg-SecondaryColor  dark:bg-gray-900">
     <div className="container p-6 mx-auto">
         <div className="lg:flex">
             <div className="w-full -mx-6 lg:w-2/5">

@@ -20,6 +20,7 @@ export default {
         gray900: '#DEF2F1',
         PrimaryColor:'#3AAFA9',
         PrimaryBlack:'#17252A',
+        SecondaryColor:'#00704A',
         primary: {
           50: '#eff6ff',
           100: '#dbeafe',

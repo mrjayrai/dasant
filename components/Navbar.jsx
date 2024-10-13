@@ -39,10 +39,10 @@ export default function Navbar() {
 
   return (
     <>
-      <header className='w-full bg-PrimaryColor  fixed top-0 left-0 right-0 z-[10000]'>
-      <nav className={`py-1 lg:px-1 px-1 ${isSticky ? "sticky top-0 left-0 right-0 border-b-[1px] shadow border-b-slate-500 bg-PrimaryColor duration-75" : ""}`}>
-        <div className='flex justify-between items-center text-lg gap-[2px] mr-10'>
-            <a href='/' className='flex'><img src={dashanteelogo} style={{ height: '80px', width: '120px',margin:'2px' }} alt=''/></a>
+      <header className='w-full bg-SecondaryColor  fixed top-0 left-0 right-0 z-[10000]'>
+      <nav className={`py-1 lg:px-1 px-1 ${isSticky ? "sticky top-0 left-0 right-0 border-b-[1px] shadow border-b-slate-500 bg-SecondaryColor duration-75" : ""}`}>
+        <div className='flex justify-between items-center text-lg gap-[2px] mr-10 h-[70px] overflow-hidden'>
+            <a href='/' className='flex'><img src={dashanteelogo} style={{ height: '120px', width: '160px',margin:'2px',objectFit:'contain' }} alt=''/></a>
             <ul className=' md:flex space-x-12 hidden'>
         {navItems.map(({ link, path }) => (
             <li key={path} className='cursor-pointer'>
