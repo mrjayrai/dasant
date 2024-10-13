@@ -21,7 +21,7 @@ function Teams() {
   return (
     <>
     {/* old start */}
-    <div className='bg-gray900 pt-2'>
+    <div className='bg-gray900 pt-2' id="team">
       <div className="font-[sans-serif]">
         <div className="max-w-2xl mx-auto text-center ">
           <h2 className="text-gray-800 text-4xl font-extrabold">Meet our team</h2>

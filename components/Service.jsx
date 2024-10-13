@@ -87,6 +87,7 @@ function Service() {
     style={{
       backgroundImage: `url(${bg32})`,
     }}
+    id="service"
     >
 
       <div className="text-center mt-0  mx-auto">

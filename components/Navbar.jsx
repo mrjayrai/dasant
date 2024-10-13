@@ -44,11 +44,19 @@ export default function Navbar() {
         <div className='flex justify-between items-center text-lg gap-[2px] mr-10 h-[70px] overflow-hidden'>
             <a href='/' className='flex'><img src={dashanteelogo} style={{ height: '120px', width: '160px',margin:'2px',objectFit:'contain' }} alt=''/></a>
             <ul className=' md:flex space-x-12 hidden'>
-        {navItems.map(({ link, path }) => (
+        {/* {navItems.map(({ link, path }) => (
             <li key={path} className='cursor-pointer'>
                 <Link to={path} spy={true} smooth={true} key={path} offset={-100} className='block font-[19px] leading-[28px] line text-gray900 hover:text-indigo-700 first:font-medium'>{link}</Link>
             </li>
-        ))}
+        ))} */}
+        {navItems.map(({ link, path }) => (
+  <li key={path} className='cursor-pointer'>
+    <Link to={path} spy={true} smooth={true} key={path} offset={-100} className='block font-[19px] leading-[28px] line text-gray900 hover:text-indigo-700 first:font-medium'>
+      {link}
+    </Link>
+  </li>
+))}
+
     </ul>
     <div className='md:hidden'>
       <button 

@@ -53,7 +53,9 @@ export default function Home() {
 
   return (
     <>
+    <div id="home">
     {windowWidth>640?<Videodesk/>:<Videomob/>}
+    </div>
     {/* {windowWidth>640?null:<Videomob/>} */}
     </>
   );

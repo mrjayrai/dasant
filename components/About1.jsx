@@ -162,7 +162,7 @@ import { Button, Typography } from "@material-tailwind/react";
 export default function About1() {
   return (
     <>
-    <div className='block'>
+    <div className='block' id="about">
     <div className='bg-gray900  text-PrimaryBlack flex justify-center items-center text-center sm:text-[38px] font-bold sm:leading-[50px] sm:px-[230px] sm:py-[20px] font-montserrat max-sm:text-[15px] max-sm:px-[45px] max-sm:py-0'>
     Dashantee Studio: Where passion meets precision, delivering impactful film and advertising solutions.</div>
     <div className="sm:grid sm:grid-cols-3 max-sm:gird max-sm:grid-cols-1 bg-gray900">
