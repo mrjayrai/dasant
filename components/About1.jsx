@@ -159,6 +159,7 @@ import React from 'react';
 import aboutus from "../src/assets/aboutus.png";
 import abouts4 from "../src/assets/abouts4.png";
 import { Button, Typography } from "@material-tailwind/react";
+import { Link } from 'react-scroll';
 export default function About1() {
   return (
     <>
@@ -203,9 +204,11 @@ export default function About1() {
               quality content that resonates with audiences and achieves our
               client's goals.
             </Typography>
+            <Link to="contact" spy={true} smooth={true} offset={-100} duration={500}>
             <Button size="lg" color="gray" className="sm:h-10 max-sm:mb-8 max-sm:h-6">
               Contact Us
             </Button>
+            </Link>
           </div>
 
           {/* Image section */}
