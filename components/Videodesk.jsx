@@ -3,7 +3,7 @@ import React from 'react'
 import dasant from "../src/assets/dasant.mp4";
 function Videodesk() {
   return (
-    <div className='bg-neutralSilver max-sm:hidden'>
+    <div className='bg-neutralSilver mt-16 max-sm:hidden'>
        <div className=''>
          <div className='relative w-full h-[calc(100vh-4rem)] overflow-hidden'>
          <video
