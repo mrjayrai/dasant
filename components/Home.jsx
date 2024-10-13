@@ -24,45 +24,37 @@
 // }
 
 ////// desktop ^
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import dasant from "../src/assets/dasant.mp4";
 import dasantmob from '../src/assets/dasantmob.mp4';
+import Videodesk from './Videodesk';
+import Videomob from './Videomob';
 
 export default function Home() {
+
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  // Function to update width on window resize
+  const updateWidth = () => {
+    setWindowWidth(window.innerWidth);
+  };
+
+  // Set up event listener for window resize
+  useEffect(() => {
+    window.addEventListener('resize', updateWidth);
+
+    // Clean up the event listener on component unmount
+    console.log(windowWidth);
+    return () => {
+      window.removeEventListener('resize', updateWidth);
+    };
+    
+  }, []);
+
   return (
     <>
-    <div className='bg-neutralSilver relative z-0 sm:hidden' style={{ transformStyle: 'preserve-3d', WebkitTransformStyle: 'preserve-3d' }}>
-      <div className='relative w-full'> {/* Changed to h-screen for full height */}
-      {/* h-screen overflow-hidden */}
-        <video
-          className='absolute inset-0 w-full h-fit object-contain sm:object-cover ' // Use object-contain for smaller screens, object-cover for larger screens
-          autoPlay
-          loop
-          muted
-          playsInline
-          preload='auto'
-          src={dasantmob}
-        >
-          Your browser does not support the video tag.
-        </video>
-      </div>
-    </div>
-         <div className='bg-neutralSilver max-sm:hidden'>
-       <div className=''>
-         <div className='relative w-full h-[calc(100vh-4rem)] overflow-hidden'>
-         <video
-            className='absolute inset-0 w-full h-full object-cover'
-            autoPlay
-            loop
-            muted
-            playsInline
-            src={dasant}
-          >
-            Your browser does not support the video tag.
-          </video>
-        </div>
-      </div>
-    </div>
+    {windowWidth>640?<Videodesk/>:<Videomob/>}
+         
     </>
   );
 }
