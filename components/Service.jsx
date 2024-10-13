@@ -129,32 +129,32 @@ function Service() {
     <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-10">
     {serviceprovided.map((service) => (
     <div
-        className="border-r border-b border-l border-gray-400 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal"
+        className="border-r border-b border-l border-gray-400 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal cursor-pointer"
         key={service.id}
         onClick={() => handleCardClick(service)}
     >
         <img src={service.image} className="w-full mb-3" />
         <div className="p-4 pt-2 flex flex-col justify-between h-full">
             <div className="mb-8">
-            <a href="#" className="text-gray-900 font-bold text-2xl mb-2 hover:text-indigo-600 block h-12 font-montserrat capitalize text-left">
+            <div className="text-gray-900 font-bold text-2xl mb-2 hover:text-indigo-600 block h-12 font-montserrat capitalize text-left">
     {service.title}
-</a>
+</div>
                 <p className="text-gray-700 text-sm text-justify font-lora">{service.desc}</p>
             </div>
             <div className="flex items-center gap-2"
             onClick={() => handleCardClick(service)}
             >
-                <a href="#">
+                <div>
                 <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fillRule="evenodd" clipRule="evenodd">
     <path d="M12 0c-6.623 0-12 5.377-12 12s5.377 12 12 12 12-5.377 12-12-5.377-12-12-12zm0 1c-6.071 0-11 4.929-11 11s4.929 11 11 11 11-4.929 11-11-4.929-11-11-11zm4.828 11.5l-4.608 3.763.679.737 6.101-5-6.112-5-.666.753 4.604 3.747h-11.826v1h11.828z" fill="#5e17eb"/>
 </svg>
 
 
-                </a>
+                </div>
                 <div className="text-sm">
-                    <a href="#" className="text-[#5e17eb] font-semibold leading-none ">
+                    <div className="text-[#5e17eb] font-semibold leading-none ">
                         Find Out More
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
