@@ -55,6 +55,7 @@ const Footer = () => {
         <div>
             <h3 className="text-gray900 uppercase dark:text-white">Contact</h3>
             <span className="block mt-2 text-sm text-gray900 dark:text-gray-400 hover:underline">+91 8087428165</span>
+            <span className="block mt-2 text-sm text-gray900 dark:text-gray-400 hover:underline">+91 7745802426</span>
             <span className="block mt-2 text-sm text-gray900 dark:text-gray-400 hover:underline">dashanteestudio@gmail.com</span>
             {/* <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400">Satyasundaram society, Fateh bag Kandivali, West -67 Mumbai</span> */}
         </div>
