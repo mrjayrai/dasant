@@ -20,7 +20,9 @@ function App() {
         <Route path="/" element={
           <>
           <div className='block'>
+            <div className='max-sm:fixed max-sm:z-10001'>
             <Home />
+            </div>
             <div className='sm:hidden'>
             <Nbspde/>
             </div>
