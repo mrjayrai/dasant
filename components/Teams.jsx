@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import React from 'react';
 import manik from "../src/assets/manik.jpg";
 import nitin from "../src/assets/nitin.jpg";
@@ -17,6 +18,8 @@ function Teams() {
   ];
 
   return (
+    <>
+    {/* old start */}
     <div className='bg-gray900 pt-2'>
       <div className="font-[sans-serif]">
         <div className="max-w-2xl mx-auto text-center ">
@@ -36,39 +39,106 @@ function Teams() {
       <div className="py-6">
         <h4 className="text-gray-800 text-lg font-bold capitalize">{member.name}</h4> {/* Increased font size */}
         <p className="text-gray-800 text-sm mt-2">{member.desg}</p> {/* Slightly larger font size */}
-
-        {/* <div className="space-x-4 mt-6">
-          <button
-            type="button"
-            className="w-8 h-8 inline-flex items-center justify-center rounded-full border-none outline-none bg-gray-100 hover:bg-gray-200"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" width="14px" fill="#333" viewBox="0 0 155.139 155.139">
-              <path d="M89.584 155.139V84.378h23.742l3.562-27.585H89.584V39.184c0-7.984 2.208-13.425 13.67-13.425l14.595-.006V1.08C115.325.752 106.661 0 96.577 0 75.52 0 61.104 12.853 61.104 36.452v20.341H37.29v27.585h23.814v70.761h28.48z" />
-            </svg>
-          </button>
-          <button
-            type="button"
-            className="w-8 h-8 inline-flex items-center justify-center rounded-full border-none outline-none bg-gray-100 hover:bg-gray-200"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" width="14px" fill="#333" viewBox="0 0 512 512">
-              <path d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z" />
-            </svg>
-          </button>
-          <button
-            type="button"
-            className="w-8 h-8 inline-flex items-center justify-center rounded-full border-none outline-none bg-gray-100 hover:bg-gray-200"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" width="16px" fill="#333" viewBox="0 0 24 24">
-              <path d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 0 0 2.882 0z" />
-            </svg>
-          </button>
-        </div> */}
       </div>
     </div>
   ))}
 </div>
       </div>
     </div>
+    {/* old end */}
+    {/* new start */}
+    {/* <div className="p-10 max-w-screen-lg mx-auto">
+    <div className="text-center mb-4">
+        <p className="mt-4 text-sm leading-7 text-gray-500 font-regular">
+            THE TEAM
+        </p>
+        <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
+            Our <span className="text-indigo-600">Team</span>
+        </h3>
+    </div>
+    <div className="sm:grid grid-cols-2 gap-6 my-10">
+
+        <div className="max-w-sm w-full lg:max-w-full lg:flex mx-auto my-10">
+            <div
+                className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+                style={{ backgroundImage: "url('https://images.pexels.com/photos/3785084/pexels-photo-3785084.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500')" }}
+                title="Woman holding a mug"
+            ></div>
+            <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4">
+                <div>
+                    <a href="#"
+                        className="text-gray-900 font-bold text-xl mb-2 hover:text-indigo-600 transition duration-500 ease-in-out">
+                        Yahya R. Makarim
+                    </a>
+                    <p className="text-sm text-gray-600">
+                        CEO &amp; President
+                    </p>
+                    <p className="text-gray-500 text-base mt-4">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+
+                    <div className="my-4 flex">
+                        <a href="#">
+                            <svg className="mr-3" width="18px" height="18px" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g data-name="Layer 2">
+                                    <g data-name="facebook">
+                                        <rect width="24" height="24" transform="rotate(180 12 12)" opacity="0"></rect>
+                                        <path
+                                            d="M17 3.5a.5.5 0 0 0-.5-.5H14a4.77 4.77 0 0 0-5 4.5v2.7H6.5a.5.5 0 0 0-.5.5v2.6a.5.5 0 0 0 .5.5H9v6.7a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-6.7h2.62a.5.5 0 0 0 .49-.37l.72-2.6a.5.5 0 0 0-.48-.63H13V7.5a1 1 0 0 1 1-.9h2.5a.5.5 0 0 0 .5-.5z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg className="mr-3" width="16px" height="16px" viewBox="0 0 310 310">
+                                <g id="XMLID_826_">
+                                    <path id="XMLID_827_" d="M302.973,57.388c-4.87,2.16-9.877,3.983-14.993,5.463c6.057-6.85,10.675-14.91,13.494-23.73
+                                        c0.632-1.977-0.023-4.141-1.648-5.434c-1.623-1.294-3.878-1.449-5.665-0.39c-10.865,6.444-22.587,11.075-34.878,13.783
+                                        c-12.381-12.098-29.197-18.983-46.581-18.983c-36.695,0-66.549,29.853-66.549,66.547c0,2.89,0.183,5.764,0.545,8.598
+                                        C101.163,99.244,58.83,76.863,29.76,41.204c-1.036-1.271-2.632-1.956-4.266-1.825c-1.635,0.128-3.104,1.05-3.93,2.467
+                                        c-5.896,10.117-9.013,21.688-9.013,33.461c0,16.035,5.725,31.249,15.838,43.137c-3.075-1.065-6.059-2.396-8.907-3.977
+                                        c-1.529-0.851-3.395-0.838-4.914,0.033c-1.52,0.871-2.473,2.473-2.513,4.224c-0.007,0.295-0.007,0.59-0.007,0.889
+                                        c0,23.935,12.882,45.484,32.577,57.229c-1.692-0.169-3.383-0.414-5.063-0.735c-1.732-0.331-3.513,0.276-4.681,1.597
+                                        c-1.17,1.32-1.557,3.16-1.018,4.84c7.29,22.76,26.059,39.501,48.749,44.605c-18.819,11.787-40.34,17.961-62.932,17.961
+                                        c-4.714,0-9.455-0.277-14.095-0.826c-2.305-0.274-4.509,1.087-5.294,3.279c-0.785,2.193,0.047,4.638,2.008,5.895
+                                        c29.023,18.609,62.582,28.445,97.047,28.445c67.754,0,110.139-31.95,133.764-58.753c29.46-33.421,46.356-77.658,46.356-121.367
+                                        c0-1.826-0.028-3.67-0.084-5.508c11.623-8.757,21.63-19.355,29.773-31.536c1.237-1.85,1.103-4.295-0.33-5.998
+                                        C307.394,57.037,305.009,56.486,302.973,57.388z"></path>
+                                </g>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="19px" height="19px" viewBox="0 0 239.04 239.04">
+                                <g>
+                                    <path style={{ fill: '#FFFFFF' }} d="M167.809,36.555c-22.276-0.183-44.597-1.054-66.919-0.504c-25.851,0.642-46.018,2.2-61.281,22.872
+                                        c-3.988,9.854-6.004,21.359-6.967,33.368c-0.183,3.163-0.367,6.417-0.596,9.763c-0.825,20.396,0.55,41.435,0.092,58.118
+                                        c2.154,10.955,6.371,20.809,14.255,28.326c26.126,24.888,79.294,17.142,114.128,15.767c16.73-6.096,30.663-11.138,38.134-30.251
+                                        c5.913-15.034,4.95-34.193,5.363-50.326C204.797,90.502,206.264,44.714,167.809,36.555z"></path>
+                                    <path d="M157.588,48.38c44.505,5.934,31.731,46.633,31.731,46.633c4.878-0.814,7.406-1.162,7.406-1.162
+                                        c7.982-0.474,17.576-2.152,22.64-11.375c5.465-8.717,1.815-17.048,1.815-17.048c-4.163-0.972-8.116-1.244-10.964-1.244
+                                        c-7.572,0-9.592,0.872-9.592,0.872c-2.709,0-5.291,1.195-8.397,2.823c-5.971,3.059-6.252,12.112-6.252,12.112
+                                        c-0.308,9.559,2.299,17.712,2.299,17.712c-4.224,1.203-4.86,4.654-4.86,4.654C133.113,108.252,115.569,122.37,112.243,124.132
+                                        c-5.177,2.645-11.171,6.458-18.655,8.654c-6.154,1.777-10.895,0.909-10.895,0.909c-3.238-0.226-7.84-4.209-10.837-5.244
+                                        c-3.328-1.155-5.631,0.933-5.631,0.933c-1.489,2.934-0.474,5.895-0.474,5.895c0.446,2.49,2.91,2.205,2.91,2.205
+                                        c3.564-0.459,5.037-0.164,8.64-2.898c2.994-2.309,3.933-5.151,6.684-6.675c2.872-1.405,5.731-2.572,7.285-4.25
+                                        c1.029-0.576,1.771-1.439,1.771-1.439c7.964-5.703,4.949-13.318,4.949-13.318c-0.042-5.748-3.077-9.617-3.077-9.617
+                                        c1.299-3.123,4.168-3.484,4.168-3.484C163.727,49.594,157.588,48.38,157.588,48.38z"></path>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+</div> */}
+
+    {/* new end */}
+    </>
   );
 }
 
