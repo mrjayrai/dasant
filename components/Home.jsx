@@ -31,7 +31,7 @@ import dasantmob from '../src/assets/dasantmob.mp4';
 export default function Home() {
   return (
     <>
-    <div className='bg-neutralSilver relative z-0 sm:hidden' style={{ transformStyle: 'preserve-3d', WebkitTransformStyle: 'preserve-3d' }}>
+    <div className='bg-neutralSilver relative z-[-1] sm:hidden' style={{ transformStyle: 'preserve-3d', WebkitTransformStyle: 'preserve-3d' }}>
       <div className='relative w-full'> {/* Changed to h-screen for full height */}
       {/* h-screen overflow-hidden */}
         <video
