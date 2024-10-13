@@ -19,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={
           <>
+          <div className='block'>
             <Home />
             <div className='sm:hidden'>
             <Nbspde/>
@@ -31,6 +32,7 @@ function App() {
             <Contact/>
             <Client/>
             <Footer/>
+            </div>
           </>
         } />
         
