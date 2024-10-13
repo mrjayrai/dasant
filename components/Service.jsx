@@ -20,7 +20,7 @@ import bg11 from "../src/assets/bg11.png";
 import bg32 from "../src/assets/bg32.jpg";
 import { useNavigate } from "react-router-dom";
 import advertisingcard from "../src/assets/advertisingcard.jpg";
-import filmcard from "../src/assets/filmcard.jpg";
+import filmcard1 from "../src/assets/filmcard1.jpeg";
 import postcard from "../src/assets/postcard.jpg";
 import scriptcard from "../src/assets/scriptcard.jpg";
 // import Client from "./Client";
@@ -37,12 +37,12 @@ function Service() {
       id: 4,
       title: "Film Production",
       desc: "At Dashantee Studio, we bring stories to life through visionary film production. From concept to screen, we craft cinematic experiences that captivate and inspire.",
-      image: filmcard,
+      image: postcard,
       feature:[
         {id:'41',title:'Feature Films',dec:'We develop and produce quality, engaging feature films that captivate audiences, tell memorable stories, and leave a lasting impact. From script to screen, our team collaborates with writers, directors, and producers to bring unique visions and ideas to life in a cinematic experience.',image:bg10},
-        {id:'42',title:'Short Films',dec:'We create captivating and concise short films that tell powerful stories, evoke emotions, and leave a lasting impression. From script to screen, our team helps you develop and produce high-quality short films that showcase your vision, talent, and creativity.',image:bg5},
+        {id:'42',title:'Short Films',dec:'We create engaging and concise short films that tell powerful stories, evoke emotions, and leave a lasting impression. From script to screen, our team helps you develop and produce high-quality short films that showcase your vision, talent, and creativity.',image:bg5},
         {id:'43',title:'Documentaries',dec:'We craft compelling, informative, and engaging documentary films that tell real stories, explore important issues, and showcase unique perspectives. Our team helps you bring your vision to life, from research to editing, and creates high-quality documentaries that educate, inspire, and leave a lasting impact',image:bg3},
-        {id:'44',title:'Music Videos',dec:'Our team produces innovative and captivating music videos that complement your music, enhance your brand, and connect with fans. We collaborate with artists to create visually striking and memorable videos that amplify their message and artistry',image:bg6},
+        {id:'44',title:'Music Videos',dec:'Our team produces innovative and engaging music videos that complement your music, enhance your brand, and connect with fans. We collaborate with artists to create visually striking and memorable videos that amplify their message and artistry',image:bg6},
       ],
     },
     {
@@ -62,7 +62,7 @@ function Service() {
       id: 1,
       title: "Post-Production",
       desc: "Dashantee Studio offers seamless post-production services, transforming your projects into cinematic experiences. We enhance visuals and sound to create powerful, final products.",
-      image: postcard,
+      image: filmcard1,
       feature:[
         {id:'11',title:'Editing',dec:'We refine and perfect your visual content through expert editing services. Our team of skilled editors craft compelling narratives, enhance pacing and tone, and ensure a polished final product that exceeds your expectations',image:editing},
         {id:'12',title:'Visual Effects (VFX) ',dec:'Our team delivers high-end visual effects solutions that seamlessly integrate with live-action footage. We specialize in CGI, motion capture, and advanced compositing techniques to create breathtaking and believable visual experiences',image:visual},

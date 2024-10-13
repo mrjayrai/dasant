@@ -6,15 +6,16 @@ import prab from "../src/assets/prab.jpg";
 import pri from "../src/assets/pri.jpg";
 import rahul from "../src/assets/rahul.jpg";
 import team4 from "../src/assets/team4.jpg";
+import nitinimg1 from "../src/assets/nitinimg1.jpg";
 
 function Teams() {
   const teammember = [
-    { id: 6, name: 'nitin gaikwad ', img: nitin, desg: 'Founder & Director ' },
+    { id: 6, name: 'nitin gaikwad ', img: nitinimg1, desg: 'Founder & Director ' },
     { id: 3, name: 'Rahul waghmare ', img: rahul, desg: 'Editor & VFX Head' },
     { id: 1, name: 'Priypal Dashantee', img: pri, desg: 'Promotion Head' },
     { id: 4, name: 'Ram Bendrikar', img: team4, desg: 'Writer & Director' },
     { id: 5, name: 'Manik Bhalerao', img: manik, desg: 'Production Head' },
-    // { id: 2, name: 'Prabhakar Mathapati', img: prab, desg: 'Actor and Lyricist' },
+    { id: 2, name: 'Prabhakar Mathapati', img: prab, desg: 'Lyricist' },
   ];
 
   return (
