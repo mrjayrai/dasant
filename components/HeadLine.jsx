@@ -3,7 +3,7 @@ import React from 'react'
 
 function HeadLine({title}) {
   return (
-    <div className="text-center py-8 bg-gray900 h-full text-red-700">
+    <div className="text-center py-8 bg-[#D4E9E2] h-full text-red-700">
         {/* <h2 className="text-4xl text-neutralDGrey font-semibold mb-2">
           
           {title}
