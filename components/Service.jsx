@@ -19,6 +19,10 @@ import bg13 from "../src/assets/bg13.png";
 import bg11 from "../src/assets/bg11.png";
 import bg32 from "../src/assets/bg32.jpg";
 import { useNavigate } from "react-router-dom";
+import advertisingcard from "../src/assets/advertisingcard.jpg";
+import filmcard from "../src/assets/filmcard.jpg";
+import postcard from "../src/assets/postcard.jpg";
+import scriptcard from "../src/assets/scriptcard.jpg";
 // import Client from "./Client";
 
 function Service() {
@@ -32,8 +36,8 @@ function Service() {
     {
       id: 4,
       title: "Film Production",
-      desc: "We bring your story to life through high-quality, professional film production services. Our team of experts handles every aspect of production, from planning to post-production, to deliver a polished final product that exceeds your expectations",
-      image: post,
+      desc: "At Dashantee Studio, we bring stories to life through visionary film production. From concept to screen, we craft cinematic experiences that captivate and inspire.",
+      image: filmcard,
       feature:[
         {id:'41',title:'Feature Films',dec:'We develop and produce high-quality, engaging feature films that captivate audiences, tell memorable stories, and leave a lasting impact. From script to screen, our team collaborates with writers, directors, and producers to bring unique visions and ideas to life in a cinematic experience.',image:bg5},
         {id:'42',title:'Short Films',dec:'We create captivating and concise short films that tell powerful stories, evoke emotions, and leave a lasting impression. From script to screen, our team helps you develop and produce high-quality short films that showcase your vision, talent, and creativity.',image:bg10},
@@ -44,8 +48,8 @@ function Service() {
     {
       id: 2,
       title: "Advertising",
-      desc: "We create and execute compelling advertising campaigns that capture attention, drive engagement, and deliver results. Our team of experts develops strategic solutions that connect your brand with your target audience across various channels and platforms",
-      image: ads,
+      desc: "Dashantee Studio transforms ideas into dynamic advertising campaigns. We create memorable brand experiences that engage and inspire across all media.",
+      image: advertisingcard,
       feature:[
         {id:'21',title:'TV Commercials',dec:'We produce high-quality, engaging TV ads that capture viewers attention, build brand awareness, and drive sales. From concept to broadcast, we help you create compelling stories, showcase your products, and reach your target audience through effective television advertising',image:bg14},
         {id:'22',title:'Online Video Ads',dec:'Our team produces and delivers high-impact video ads that engage viewers, communicate your message, and achieve your marketing objectives. We expertly manage your video ad campaigns to maximize reach, views, and ROI.',image:bg7},
@@ -57,8 +61,8 @@ function Service() {
     {
       id: 1,
       title: "Post-Production",
-      desc: "We shape the final narrative through expert post-production services. Our team of skilled editors, visual effects artists, and sound designers craft a polished, engaging, and immersive experience that elevates your story and resonates with audiences.",
-      image: visual,
+      desc: "Dashantee Studio offers seamless post-production services, transforming your projects into cinematic experiences. We enhance visuals and sound to create powerful, final products.",
+      image: postcard,
       feature:[
         {id:'11',title:'Editing',dec:'We refine and perfect your visual content through expert editing services. Our team of skilled editors craft compelling narratives, enhance pacing and tone, and ensure a polished final product that exceeds your expectations',image:editing},
         {id:'12',title:'Visual Effects (VFX) ',dec:'Our team delivers high-end visual effects solutions that seamlessly integrate with live-action footage. We specialize in CGI, motion capture, and advanced compositing techniques to create breathtaking and believable visual experiences',image:visual},
@@ -69,8 +73,8 @@ function Service() {
     {
       id: 3,
       title: "script   development",
-      desc: "We nurture bold ideas and bring them to life through innovative creative development. Our team of visionary thinkers, writers, and artists collaborate to craft compelling stories, characters, and worlds that captivate and inspire audiences",
-      image: script,
+      desc: "From concept to screenplay, Dashantee Studio's script development services ensure your story has a strong narrative structure and emotional depth, ready for production",
+      image: scriptcard,
       feature:[
         {id:'31',title:'Scriptwriting',dec:'We craft compelling, engaging, and polished scripts for film, TV, and digital media. Our team of experienced writers develops memorable characters, intriguing plots, and snappy dialogue that brings your story to life.',image:script},
         {id:'32',title:'Storyboarding',dec:'We visualize your story through detailed, engaging, and precise storyboard art. Our team of skilled artists and directors bring your script to life, shot by shot, to plan and perfect your visual narrative',image:bg13},
@@ -84,21 +88,6 @@ function Service() {
       backgroundImage: `url(${bg32})`,
     }}
     >
-      {/* <div className="text-center my-8">
-        <h2 className="text-4xl text-neutralDGrey font-semibold mb-2">
-          Our Clients
-        </h2>
-        <p className="text-neutralGray">
-          We have been working with some amazing clients
-        </p>
-        <div className="my-12 flex flex-wrap justify-between items-center gap-2 ">
-          <img src={clogo1} className="h-32 w-32 cursor-pointer" alt=""></img>
-          <img src={clogo2} className="h-32 w-32 cursor-pointer" alt=""></img>
-          <img src={clogo3} className="h-32 w-32 cursor-pointer" alt=""></img>
-          <img src={clogo4} className="h-32 w-32 cursor-pointer" alt=""></img>
-        </div>
-      </div> */}
-      {/* <Client/> */}
 
       <div className="text-center mt-0  mx-auto">
         <h2 className="text-4xl text-white font-semibold mb-2 font-montserrat">
@@ -107,12 +96,11 @@ function Service() {
         <p className="text-white">
           We provide a large variety of services
         </p>
-        <div className="mt-14 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  mx-auto gap-12">
+        {/* <div className="mt-14 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  mx-auto gap-12">
           {serviceprovided.map((service) => (
             <div
               key={service.id}
               onClick={() => handleCardClick(service)}
-              // className="px-4 py-8 text-center md:w-[300px] mx-auto md:h-80 rounded-md shadow cursor-pointer hover:-translate-y-5 hover:border-b-4 hover:border-t-4 hover:border-indigo-700 transition-all duration-300 flex items-center justify-center h-full bg-gray900"
               className="px-4 py-8 text-center md:w-[300px] mx-auto md:h-80 rounded-md shadow cursor-pointer hover:-translate-y-5 hover:border-b-4 hover:border-t-4 hover:border-indigo-700 transition-all duration-300 flex items-center justify-center h-full bg-gray900"
             >
               <div className="">
@@ -123,7 +111,6 @@ function Service() {
                   {service.title}
                 </h4>
                 <p className="text-sm text-neutralGray flex text-justify items-center justify-center font-quicksand">
-                  {/* {service.desc} */}
                   <p className="text-sm text-neutralGray flex justify-center items-center text-justify">
                     <button className=" inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
                       <span className=" px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
@@ -135,10 +122,150 @@ function Service() {
               </div>
             </div>
           ))}
+        </div> */}
+
+      {/* start */}
+      <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
+    <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-10">
+    {serviceprovided.map((service) => (
+    <div
+        className="border-r border-b border-l border-gray-400 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal"
+        key={service.id}
+        onClick={() => handleCardClick(service)}
+    >
+        <img src={service.image} className="w-full mb-3" />
+        <div className="p-4 pt-2 flex flex-col justify-between h-full">
+            <div className="mb-8">
+            <a href="#" className="text-gray-900 font-bold text-2xl mb-2 hover:text-indigo-600 block h-12 font-montserrat capitalize text-left">
+    {service.title}
+</a>
+                <p className="text-gray-700 text-sm text-justify font-lora">{service.desc}</p>
+            </div>
+            <div className="flex items-center gap-2"
+            onClick={() => handleCardClick(service)}
+            >
+                <a href="#">
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fillRule="evenodd" clipRule="evenodd">
+    <path d="M12 0c-6.623 0-12 5.377-12 12s5.377 12 12 12 12-5.377 12-12-5.377-12-12-12zm0 1c-6.071 0-11 4.929-11 11s4.929 11 11 11 11-4.929 11-11-4.929-11-11-11zm4.828 11.5l-4.608 3.763.679.737 6.101-5-6.112-5-.666.753 4.604 3.747h-11.826v1h11.828z" fill="#5e17eb"/>
+</svg>
+
+
+                </a>
+                <div className="text-sm">
+                    <a href="#" className="text-[#5e17eb] font-semibold leading-none ">
+                        Find Out More
+                    </a>
+                </div>
+            </div>
         </div>
+    </div>
+))}
+        </div>
+        </div>
+      {/* end */}
       </div>
     </div>
   );
 }
 
 export default Service;
+
+
+{/* <div class="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
+    <div class="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-10">
+        <div
+            class="border-r border-b border-l border-gray-400 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
+            <img src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500" class="w-full mb-3">
+            <div class="p-4 pt-2">
+                <div class="mb-8">
+                    <p class="text-sm text-gray-600 flex items-center">
+                        <svg class="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20">
+                            <path
+                                d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z">
+                            </path>
+                        </svg>
+                        Members only
+                    </p>
+                    <a href="#" class="text-gray-900 font-bold text-lg mb-2 hover:text-indigo-600 inline-block">Can
+                        coffee make you a better developer?</a>
+                    <p class="text-gray-700 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                </div>
+                <div class="flex items-center">
+                    <a
+                        href="#"><img class="w-10 h-10 rounded-full mr-4" src="https://tailwindcss.com/img/jonathan.jpg" alt="Avatar of Jonathan Reinink"></a>
+                    <div class="text-sm">
+                        <a href="#" class="text-gray-900 font-semibold leading-none hover:text-indigo-600">Jonathan
+                            Reinink</a>
+                        <p class="text-gray-600">Aug 18</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div
+            class="border-r border-b border-l border-gray-400 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
+            <img src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500" class="w-full mb-3">
+            <div class="p-4 pt-2">
+                <div class="mb-8">
+                    <p class="text-sm text-gray-600 flex items-center">
+                        <svg class="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20">
+                            <path
+                                d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z">
+                            </path>
+                        </svg>
+                        Members only
+                    </p>
+                    <a href="#" class="text-gray-900 font-bold text-lg mb-2 hover:text-indigo-600 inline-block">Can
+                        coffee make you a better developer?</a>
+                    <p class="text-gray-700 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                </div>
+                <div class="flex items-center">
+                    <a
+                        href="#"><img class="w-10 h-10 rounded-full mr-4" src="https://tailwindcss.com/img/jonathan.jpg" alt="Avatar of Jonathan Reinink"></a>
+                    <div class="text-sm">
+                        <a href="#" class="text-gray-900 font-semibold leading-none hover:text-indigo-600">Jonathan
+                            Reinink</a>
+                        <p class="text-gray-600">Aug 18</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div
+            class="border-r border-b border-l border-gray-400 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
+            <img src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500" class="w-full mb-3">
+            <div class="p-4 pt-2">
+                <div class="mb-8">
+                    <p class="text-sm text-gray-600 flex items-center">
+                        <svg class="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20">
+                            <path
+                                d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z">
+                            </path>
+                        </svg>
+                        Members only
+                    </p>
+                    <a href="#" class="text-gray-900 font-bold text-lg mb-2 hover:text-indigo-600 inline-block">Can
+                        coffee make you a better developer?</a>
+                    <p class="text-gray-700 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                </div>
+                <div class="flex items-center">
+                    <a
+                        href="#"><img class="w-10 h-10 rounded-full mr-4" src="https://tailwindcss.com/img/jonathan.jpg" alt="Avatar of Jonathan Reinink"></a>
+                    <div class="text-sm">
+                        <a href="#" class="text-gray-900 font-semibold leading-none hover:text-indigo-600">Jonathan
+                            Reinink</a>
+                        <p class="text-gray-600">Aug 18</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div> */}
