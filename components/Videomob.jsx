@@ -1,5 +1,5 @@
 import React from 'react'
-import dasantmob from '../src/assets/dasantmob.mp4';
+import dasant from '../src/assets/dasant.mp4';
 
 export default function Videomob() {
   return (
@@ -13,7 +13,7 @@ export default function Videomob() {
           muted
           playsInline
           preload='auto'
-          src={dasantmob}
+          src={dasant}
         >
           Your browser does not support the video tag.
         </video>
