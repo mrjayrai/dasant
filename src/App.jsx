@@ -26,7 +26,7 @@ function App() {
             <div className='sm:hidden'>
             <Nbspde/>
             </div>
-            <HeadLine title={'About Us'}/>
+            <HeadLine title={'About US'}/>
             <About1/>
             <Service />
             {/* <About/> */}
